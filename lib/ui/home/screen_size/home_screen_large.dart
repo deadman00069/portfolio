@@ -84,8 +84,10 @@ class HomeScreenLarge extends StatelessWidget {
           ),
         ),
         const SizedBox(
+          
           height: 348,
         ),
+        Text('sdfdsfsfsd')
       ],
     );
   }
