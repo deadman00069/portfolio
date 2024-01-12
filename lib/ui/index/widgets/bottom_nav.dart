@@ -6,7 +6,6 @@ import '../../../data/blocs/index_screen_bloc.dart';
 import '../../../others/strings.dart';
 import 'custom_bottom_nav_item.dart';
 
-
 class BottomNav extends StatelessWidget {
   const BottomNav({super.key});
 
@@ -21,10 +20,7 @@ class BottomNav extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Placeholder(
-                fallbackWidth: 97,
-                fallbackHeight: 59,
-              ),
+              const SizedBox(),
               Row(
                 children: [
                   Text(

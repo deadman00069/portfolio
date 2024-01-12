@@ -74,8 +74,9 @@ class HomeScreenLarge extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(1000),
                     child: Image.network(
+
                       controller.state.imgUrl ?? '',
-                      fit: BoxFit.fitHeight,
+                      fit: BoxFit.contain,
                     ),
                   ),
                 ),
@@ -84,10 +85,8 @@ class HomeScreenLarge extends StatelessWidget {
           ),
         ),
         const SizedBox(
-          
           height: 348,
         ),
-        Text('sdfdsfsfsd')
       ],
     );
   }

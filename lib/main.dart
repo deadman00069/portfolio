@@ -42,7 +42,8 @@ class MyApp extends StatelessWidget {
                 aboutMeParagraph:
                     'I am a qualified and professional software developer with three years of experience in Native and Cross Platform app development. Team player with an eye for detail.',
                 imgUrl:
-                    'https://media.licdn.com/dms/image/C4E03AQE2sQHmlXHPDQ/profile-displayphoto-shrink_400_400/0/1629285548742?e=1697068800&v=beta&t=9wVplPVmzlm8MzEJTBM6wMFeYea0uflwc9he3qj2TZ4',
+                // 'https://raw.githubusercontent.com/deadman00069/sdfsf/main/1629285549713.jpeg',
+               'https://media.licdn.com/dms/image/C4E03AQE2sQHmlXHPDQ/profile-displayphoto-shrink_400_400/0/1629285549713?e=1710374400&v=beta&t=63QwGAfGoY5dfapWcDuFl1uTMa8_XihtPQjD6e28v34',
                 experiences: [
                   Experiences(
                     title: 'Senior Software Engineer',

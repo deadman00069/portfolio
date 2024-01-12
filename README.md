@@ -3,7 +3,7 @@
 {
 "fullName": "",
 "tech": "",
-"aboutMeParagraph": "fds",
+"aboutMeParagraph": "",
 "experiences": [
 {
 "title": "",

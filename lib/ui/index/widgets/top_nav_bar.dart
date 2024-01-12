@@ -7,7 +7,6 @@ import '../../../data/blocs/theme_bloc.dart';
 import '../../../others/strings.dart';
 import '../../widgets/custom_social_icon.dart';
 import '../../widgets/custom_toggle_theme_switch.dart';
-
 import 'custom_nav_item.dart';
 
 class TopNavBar extends StatelessWidget {
@@ -29,12 +28,7 @@ class TopNavBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const Placeholder(
-            fallbackWidth: 97,
-            fallbackHeight: 59,
-          ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               CustomNavItem(
                 name: Strings.home,
@@ -68,9 +62,11 @@ class TopNavBar extends StatelessWidget {
                 name: Strings.contact,
                 onPress: () => cc.onClick(4),
               ),
-              const SizedBox(
-                width: 51,
-              ),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
               CustomSocialIcon(
                 icon: 'svg/linkdin.svg',
                 onPress: () {
